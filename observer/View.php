@@ -2,8 +2,6 @@
 
 require_once 'Observer.php';
 
-/*¿Cómo luciría llevado a la práctica?*/
- 
 /*Creamos el objeto*/
 $articulo = new Articulo(new \SplObjectStorage());
 /*vinculamos el artículo al observer*/

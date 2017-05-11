@@ -2,7 +2,7 @@
 
 require_once 'Subject.php';
 
-class Notify implements \SplObserver /*seguimos con lai implementacion del observer*/
+class Notify implements \SplObserver /*Implementacion del observer*/
 {
     public function update(\SplSubject $subject, $event = '')
     {

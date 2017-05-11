@@ -2,7 +2,7 @@
 
 require_once 'Observer.php';
 
-class Articulo implements \SplSubject /*Empezamos importando la interfaz del sujeto*/
+class Articulo implements \SplSubject /*Importando la interfaz del sujeto*/
 {
     protected $storage;
  
